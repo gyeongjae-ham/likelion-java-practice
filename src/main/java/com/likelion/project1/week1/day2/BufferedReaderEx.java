@@ -1,4 +1,4 @@
-package com.likelion.project1.week1;
+package com.likelion.project1.week1.day2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

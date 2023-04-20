@@ -1,4 +1,4 @@
-package com.likelion.project1;
+package com.likelion.project1.week1.day1;
 
 public class PrintByeTest {
     public static void main(String[] args) {

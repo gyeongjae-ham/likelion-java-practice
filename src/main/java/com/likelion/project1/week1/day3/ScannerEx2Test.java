@@ -1,0 +1,8 @@
+package com.likelion.project1.week1.day3;
+
+public class ScannerEx2Test {
+    public static void main(String[] args) {
+        ScannerEx2 scannerEx2 = new ScannerEx2();
+        scannerEx2.inputTwoNumbersAndPlus();
+    }
+}
