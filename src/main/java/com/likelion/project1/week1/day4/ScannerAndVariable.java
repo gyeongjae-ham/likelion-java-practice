@@ -1,4 +1,4 @@
-package com.likelion.project1.week1.day3;
+package com.likelion.project1.week1.day4;
 
 import java.util.Scanner;
 
