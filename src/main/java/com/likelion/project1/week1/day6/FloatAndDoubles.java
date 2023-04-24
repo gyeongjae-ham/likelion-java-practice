@@ -9,6 +9,6 @@ public class FloatAndDoubles {
         double d2 = 1.23e100;
 
         float result1 = f1 * 2.0f;
-        
+        System.out.println("result1 = " + result1);
     }
 }
