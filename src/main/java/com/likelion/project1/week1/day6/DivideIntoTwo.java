@@ -10,5 +10,8 @@ public class DivideIntoTwo {
         int iOne = 1;
         int iTwo = 2;
         System.out.printf("%d \n", iOne + iOne / iTwo);
+
+        System.out.printf("%d\n", 9 / 2);
+        System.out.printf("%f\n", 9 / 2.0);
     }
 }
