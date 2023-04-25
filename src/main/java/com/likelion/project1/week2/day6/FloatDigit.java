@@ -1,4 +1,4 @@
-package com.likelion.project1.week1.day6;
+package com.likelion.project1.week2.day6;
 
 public class FloatDigit {
     public static void main(String[] args) {
