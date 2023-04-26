@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 
 public class CodeUp1042 {
     public static void main(String[] args) throws IOException {
+        // 커밋
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         int a = Integer.parseInt(st.nextToken());
