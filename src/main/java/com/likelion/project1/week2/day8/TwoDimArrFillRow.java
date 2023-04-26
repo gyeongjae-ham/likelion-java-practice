@@ -3,9 +3,15 @@ package com.likelion.project1.week2.day8;
 import java.util.Arrays;
 
 public class TwoDimArrFillRow {
-    public static void fillOne(int arrNum, int[][] arr) {
+    public static void fillRowOne(int rowNum, int[][] arr) {
         for (int i = 0; i < arr.length; i++) {
-            arr[arrNum][i] = 1;
+            arr[rowNum][i] = 1;
+        }
+    }
+
+    public static void fillColOne(int colNum, int[][] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i][colNum] = 1;
         }
     }
 
@@ -18,7 +24,8 @@ public class TwoDimArrFillRow {
     public static void main(String[] args) {
         int[][] arr = new int[5][5];
 
-        fillOne(1, arr);
+        fillRowOne(1, arr);
+        fillColOne(2, arr);
         printArr(arr);
     }
 }
