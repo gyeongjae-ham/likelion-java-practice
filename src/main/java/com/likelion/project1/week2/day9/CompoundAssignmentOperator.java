@@ -6,12 +6,12 @@ public class CompoundAssignmentOperator {
         x += 1;
         System.out.printf("+= %d\n", x);
         x -= 5;
-        System.out.printf("+= %d\n", x);
+        System.out.printf("-= %d\n", x);
         x *= 2;
-        System.out.printf("+= %d\n", x);
+        System.out.printf("*= %d\n", x);
         x /= 3;
-        System.out.printf("+= %d\n", x);
+        System.out.printf("/= %d\n", x);
         x %= 8;
-        System.out.printf("+= %d\n", x);
+        System.out.printf("%%= %d\n", x);
     }
 }
