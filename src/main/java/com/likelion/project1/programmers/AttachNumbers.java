@@ -1,6 +1,6 @@
 package com.likelion.project1.programmers;
 
-public class AttatchNumbers {
+public class AttachNumbers {
     public static int solution(int[] num_list) {
         StringBuilder esb = new StringBuilder();
         StringBuilder osb = new StringBuilder();
