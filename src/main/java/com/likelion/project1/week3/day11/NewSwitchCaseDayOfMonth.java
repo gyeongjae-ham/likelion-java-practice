@@ -1,4 +1,4 @@
-package com.likelion.project1.week3;
+package com.likelion.project1.week3.day11;
 
 public class NewSwitchCaseDayOfMonth {
     public static void main(String[] args) {
