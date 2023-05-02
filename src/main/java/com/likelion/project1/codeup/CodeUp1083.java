@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 public class CodeUp1083 {
     public static void main(String[] args) throws IOException {
+        // 커밋
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
 
