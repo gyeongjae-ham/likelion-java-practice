@@ -15,19 +15,19 @@ public class CodeUp1099 {
             }
         }
 
-        // 개미굴 시작점 초기화
-        int num = 1;
+        // 개미굴 시작점
+        int start = 1;
         Loop1:
         for (int i = 1; i < 9; i++) {
             Loop2:
-            for (int j = num; j < 10; j++) {
+            for (int j = start; j < 10; j++) {
                 if (arr[i][j] == 0) {
                     arr[i][j] = 9;
                 } else if (arr[i][j] == 1) {
                     if (arr[i + 1][j - 1] == 0) {
                         arr[i + 1][j - 1] = 9;
                     }
-                    num = j - 1;
+                    start = j - 1;
                     break;
                 } else if (arr[i][j] == 2) {
                     arr[i][j] = 9;
